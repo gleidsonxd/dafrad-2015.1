@@ -23,7 +23,7 @@ Toda a comunicação será realizada neste [grupo](https://groups.google.com/for
 * Avaliação 01: Fundamentos de Ruby;
 
 ###Trabalho
-* Projeto I e II: [A especificação do projeto](assets/projeto.md).
+* Projeto I e II: [A especificação do projeto](assessment/projeto.md).
 
 A nota final será computado através da média aritmética das avaliações.
 
