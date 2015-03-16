@@ -6,7 +6,7 @@ O objetivo do projeto consiste em desenvolver uma aplicação Web utilizando os 
 ##Requisitos
 O site deve conter obrigatoriamente:
 	
-* Especificação do Projeto: deve contar o nome do projeto, com os integrantes e uma listagem de artefatos de análise e projeto da aplicação **(23/03)**;
+* Especificação do Projeto **(23/03)**: no github do projeto deve contar o nome do projeto, com os integrantes e uma listagem de artefatos de análise, supostamente em algum [README.md](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), incluindo a listagem dos requisitos no [issues track do github](https://guides.github.com/features/issues/);
 * EtapaI:
 	* Validations
 	* Associations
