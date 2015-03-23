@@ -6,7 +6,8 @@ O objetivo do projeto consiste em desenvolver uma aplicação Web utilizando os 
 ##Requisitos
 O site deve conter obrigatoriamente:
 	
-* Especificação do Projeto **(23/03)**: no github do projeto deve contar o nome do projeto, com os integrantes e uma listagem de artefatos de análise, supostamente em algum [README.md](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), incluindo a listagem dos requisitos no [issues track do github](https://guides.github.com/features/issues/);
+* Especificação do Projeto: no github do projeto deve contar o nome do projeto, com os integrantes e uma listagem de artefatos de análise, supostamente em algum [README.md](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), incluindo a listagem dos requisitos no [issues track do github](https://guides.github.com/features/issues/):
+	* O limite para enviar o projeto é até **23:59 do dia 23/03** e deve ser enviado para o e-mail lucachaves@gmail.com contento o título "[DAFRAD-2015.1] PROJETO" e o link do seu projeto no github.
 * EtapaI:
 	* Validations
 	* Associations
