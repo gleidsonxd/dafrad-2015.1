@@ -1,3 +1,5 @@
+require 'byebug'
+
 # Triangle Project Code.
 
 # Triangle analyzes the lengths of the sides of a triangle
@@ -14,7 +16,23 @@
 #   about_triangle_project_2.rb
 #
 def triangle(a, b, c)
-  # WRITE THIS CODE
+	edges = [a,b,c]
+  equals = edges.uniq.size
+	
+	if equals == 1 and a == 0
+		raise TriangleError
+	elsif edges.max >= edges.select{|value| value != edges.max}.inject(:+)
+		raise TriangleError
+	end
+
+  case(equals)
+  	when 3
+  		:scalene
+  	when 2
+  		:isosceles
+  	when 1
+  		:equilateral
+  end
 end
 
 # Error class used in part 2.  No need to change this code.
