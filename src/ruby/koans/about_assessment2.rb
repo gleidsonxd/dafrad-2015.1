@@ -9,7 +9,7 @@ class Array
 end
  
 class Hash
-  def sort_by_value_inverse(kind = :key)
+  def inverse_sort_by(kind = :key)
   	# TODO
   end
 end
@@ -45,8 +45,8 @@ class AboutMixProject < Neo::Koan
  
   def test_inverse_sort_hash
     hash = {"10"=>5, "05"=>3, "01"=>4}
-    assert_equal({"10"=>5, "05"=>3, "01"=>4}, hash.sort_by_value_inverse)
-    assert_equal({"10"=>5, "01"=>4, "05"=>3}, hash.sort_by_value_inverse(:value))
+    assert_equal({"10"=>5, "05"=>3, "01"=>4}, hash.inverse_sort_by)
+    assert_equal({"10"=>5, "01"=>4, "05"=>3}, hash.inverse_sort_by(:value))
   end
 
   def test_process_count_place_by_year
